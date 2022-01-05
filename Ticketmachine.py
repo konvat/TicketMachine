@@ -56,6 +56,7 @@ while cash_balance > 130 or e_money_balance > 124:
         x = input('購入枚数を入力してください\n>>')
         if not x.isdecimal():
             print('半角数字で入力してください。最初からやり直してください')
+            continue #fixed from original
         print('購入枚数:',x ,'枚')
         x = int(x)
         payment_sum = 130 * x
@@ -200,6 +201,7 @@ while cash_balance > 130 or e_money_balance > 124:
         x = input('購入枚数を半角数字で入力してください\n>>')
         if not x.isdecimal():
             print('半角数字で入力してください。最初からやり直してください')
+            continue #fixed from original
         x = int(x)
         payment_sum = 124 * x
         if payment_sum > e_money_balance:
