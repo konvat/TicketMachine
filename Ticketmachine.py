@@ -136,6 +136,15 @@ while cash_balance > 130 or e_money_balance > 124:
                     continue
 
             print('投入金額:', insert_cash,'円')
+            # add from original from here
+            print('投入金種と枚数')
+            print('10円玉:', cash_10, '枚')
+            print('50円玉:', cash_50, '枚')
+            print('100円玉:', cash_100, '枚')
+            print('1000円札:', cash_1000, '枚')
+            print('5000円札:', cash_5000, '枚')
+            print('10000円札:', cash_10000, '枚')
+            # add from original until here
 
             cash_balance = cash_balance - insert_cash
 
@@ -158,7 +167,7 @@ while cash_balance > 130 or e_money_balance > 124:
                 continue
 
             print('お釣り:',change, '円')
-
+            
             cash_balance = cash_balance + change
 
             change_5000 = change // 5000
