@@ -1,2 +1,3 @@
 # TicketMachine
-work for cybird
+work for cybird  
+もっとスマートに書きたかった
