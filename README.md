@@ -1,5 +1,6 @@
 # TicketMachine
 もっとスマートに書きたかった。
+提出したものにミスが3つあった。
 ## 開発環境
 Visual Studio Code + Ubuntu 20.04 LTS on WSL
 ## 使用言語
